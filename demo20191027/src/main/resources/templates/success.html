@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>提交成功,即将跳转至主页...</p>
+<script language="JavaScript" type="text/javascript">
+    function Redirect(){
+        window.location.href = "templates/index.html";   //要跳转的页面
+    }
+    
+    function Redirect2() {
+        window.history.back(-1);
+    }
+    
+    setTimeout('Redirect2()', 2000);       //第二个参数是时间，单位毫秒
+</script>
+
+</body>
+</html>
